@@ -1,0 +1,550 @@
+@import 'bourbon/bourbon';
+@import "normalize.scss";
+
+
+
+@font-face {
+  font-family: 'AntsyPants';
+  src: url('fonts/AntsyPants.eot'); /* IE9 Compat Modes */
+  src: url('fonts/AntsyPants.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/AntsyPants.woff') format('woff'), /* Modern Browsers */
+       url('fonts/AntsyPants.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/AntsyPants.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+/* ---------------------------- VARIABLES ---------------------------- */
+
+
+$weiß: #fff;
+$rosa: #f3b2b0;
+$hellbraun: #9c8065;
+$dunkelbraun: #482a1f;
+$rot: #DE705F;
+$orange: #F28047;
+
+
+
+
+/* ---------------------------- GRID ---------------------------- */
+
+
+/*-----------------------------------*\
+
+	Values you may want to change:
+	- .container { max-width:; }
+	- p { margin-bottom:; }
+	- html { font:; }
+
+	Remember: no framework will be as
+	good as a custom built, per-
+	project	one. Toast and other
+	frameworks are best used for
+	rapid prototyping.
+
+\*-----------------------------------*/
+
+
+* {
+	position: relative;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.container {
+	/* Whatever you want. They’re your oats. */
+	max-width: 800px;
+	margin: 50px auto 0;
+	padding: 0 30px;
+	padding: 0 1.5rem;
+}
+
+.grid {
+	margin-left: -3%;
+	max-width: 105%;
+}
+
+.unit {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: top;
+	margin-left: 3%;
+	margin-right: -.25em;
+	/* Clearfix */
+	overflow: hidden;
+	*overflow: visible;
+}
+
+	.unit.demo {
+		background-color: #fff8eb;
+		height: 48px;
+		height: 3rem;
+		margin-bottom: 24px;
+		margin-bottom: 1.5rem;
+	}
+
+.span-grid {
+	width: 97%;
+}
+
+.one-of-two { width: 47%; }
+
+.one-of-three { width: 30.36%; }
+.two-of-three { width: 63.666666666%; }
+
+.one-of-four { width: 22.05%; }
+.three-of-four { width: 72%; }
+
+.one-of-five { width: 17.07%; }
+.two-of-five { width: 37%; }
+.three-of-five { width: 57%; }
+.four-of-five { width: 77%; }
+
+@media screen and (max-width: 650px) {
+	.grid {
+		margin-left: 0;
+		max-width: none;
+	}
+
+	.unit {
+		width: auto;
+		margin-left: 0;
+		display: block;
+	}
+}
+
+
+
+
+/* ---------------------------- TYPOGRAPHY ---------------------------- */
+
+
+html {
+	font-family: 'Muli', verdana, arial, sans-serif;
+	font-weight: 300;
+	font-size: 1.05em;
+	line-height: 1.6;
+	text-align: center;
+	color: $dunkelbraun;
+}
+
+
+h1, h2, h3 {
+	font-family: 'AntsyPants', sans-serif;
+	font-weight: normal;
+	color: $dunkelbraun;
+	line-height: 1.25;
+	text-align: center;
+}
+
+
+p, .p, ul, ol, hr, table, form, pre,
+h1, .alpha, h2, .beta {
+	margin-bottom: 0;
+}
+
+
+h1, .alpha {
+	font-size: 2.3em;
+
+	@media screen and (max-width: 650px) {
+		font-size: 1.7em;
+	}
+}
+
+
+h2, .beta {
+	font-size: 2em;
+	color: $hellbraun;
+	margin-bottom: 1em;
+
+	@media screen and (max-width: 650px) {
+		font-size: 1.5em;
+	}
+}
+
+
+.freunde h2 {
+	margin-top: 0;
+
+	@media screen and (max-width: 650px) {
+		margin-top: 1em;
+	}
+}
+
+
+#oeffnungszeiten h2 {
+	color: $hellbraun;
+	margin-bottom: 1em;
+}
+
+
+h3, .gamma {
+	font-size: 1.5em;
+	color: $hellbraun;
+
+	@media screen and (max-width: 650px) {
+		font-size: 1.3em;
+		margin-top: 1em;
+	}
+}
+
+
+.produkte h3 {
+	margin-top: 0;
+
+	@media screen and (max-width: 650px) {
+		margin-top: 1em;
+	}
+}
+
+
+hr {
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	margin-top: -1px;
+}
+
+
+a {
+	text-decoration: none;
+	color: $hellbraun;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+#navigation a:hover {
+	text-decoration: none;
+	color: $weiß;
+}
+
+
+b {
+	font-weight: 400;
+	font-style: italic;
+}
+
+
+p {
+	margin-bottom: 4em;
+}
+
+
+dt {
+	text-align: left;
+	font-weight: 400;
+
+	@media screen and (max-width: 650px) {
+		text-align: center;
+	}
+}
+
+
+dd {
+	text-align: right;
+	margin-bottom: 1.25em;
+
+	@media screen and (max-width: 650px) {
+		text-align: center;
+	}
+}
+
+
+ul {
+	text-align: left;
+}
+
+
+.prologue {
+	font-weight: 400;
+}
+
+
+
+
+
+/* ---------------------------- LAYOUT ---------------------------- */
+
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+body {
+
+	background-color: #fff;
+	background-image: url(../img/layout/content-bg.jpg);
+	background-size: 100% auto;
+	background-position: center 130px;
+	background-repeat: no-repeat;
+
+	@media screen and (max-width: 1600px) {
+		background-size: auto;
+		background-image: url(../img/layout/ricepaper_v3.png);
+		background-repeat: repeat;
+	}
+
+}
+
+
+img.content {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+.seperator {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+.freunde .seperator {
+	margin-bottom: 2em;
+}
+
+
+.align-left {
+	text-align: left;
+
+	@media screen and (max-width: 650px) {
+		text-align: center;
+	}
+}
+
+
+
+.no-margin-bottom {
+	margin-bottom: 0;
+}
+
+
+
+@media screen and (max-width: 650px) {
+
+	body h1 br {
+		display: none;
+	}
+}
+
+
+
+
+/* ---------------------------- HEADER ---------------------------- */
+
+#header {
+	font-family: 'AntsyPants', sans-serif;
+	font-weight: normal;
+	width: 100%;
+	height: auto;
+	background: url(../img/layout/leather.jpg);
+	box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+#navigation {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: .7em 0 .7em 0;
+	text-align: center;
+	font-size: 1.4em;
+
+	@media screen and (max-width: 999px) {
+		display: table;
+	}
+
+	@media screen and (max-width: 650px) {
+		font-size: 1.1em;
+	}
+}
+
+
+#navigation li {
+	display: inline;
+	padding: 0 .4em;
+
+	@media screen and (max-width: 650px) {
+		padding: 0 .6em;
+	}
+}
+
+
+#navigation li.logo {
+	@media screen and (max-width: 999px) {
+			display: table-header-group;
+
+		img {
+			height: 60px;
+			margin-bottom: 0.5em;
+		}
+	}
+}
+
+
+#navigation li.active a {
+	color: $weiß;
+}
+
+
+#navigation li:last-child {
+	padding-right: 0;
+}
+
+
+#navigation li a {
+	text-decoration: none;
+	color: $hellbraun;
+}
+
+
+#navigation li a:hover {
+	color: $weiß;
+}
+
+
+#navigation li img {
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------- FACEBOOK ---------------------------- */
+
+
+#neuigkeiten h2 {
+	margin-bottom: 1em;
+}
+
+
+#likebox {
+	 border: none;
+	 overflow: hidden;
+	 width: 100%;
+	 height: 500px;
+	 background: none;
+}
+
+
+
+
+/* ---------------------------- FOOTER ---------------------------- */
+
+
+#footer {
+	width: 100%;
+	height: auto;
+	background-image: url(../img/layout/leather.jpg);
+	margin-top: 10em;
+}
+
+
+#footer-wrapper {
+	width: 90%;
+	max-width: 980px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1em 0 3em 0;
+	font-size: 1em;
+	color: $hellbraun;
+}
+
+
+#footer-wrapper p {
+	font-size: 1em;
+	max-width: 980px;
+}
+
+
+#oeffnungszeiten {
+	margin-bottom: 3em;
+}
+
+
+table {
+	width: 290px;
+	text-align: left;
+	border: 0;
+	margin: 0 auto;
+}
+
+
+tr {
+	border-bottom: 1px solid shade($hellbraun, 45%);
+	line-height: 2.5;
+}
+
+
+td.right {
+	display: block;
+	padding-left: 3em;
+	text-align: right;
+}
+
+
+.icon-star {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.icon-star:before {
+	content: "\e000";
+}
+
+
+.highlight {
+	display: block;
+	font-family: 'AntsyPants', sans-serif;
+	font-weight: normal;
+	font-size: 1.8em;
+	margin-bottom: 2em;
+}
+
+
+.hinweis {
+	display: block;
+	margin: 0 auto;
+	width: 290px;
+	padding: 0.8em;
+	border: 4px double shade($hellbraun, 45%);
+	margin-top: 2em;
+}
