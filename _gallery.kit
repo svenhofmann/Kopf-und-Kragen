@@ -1,0 +1,45 @@
+				<?php 
+				/* function:  returns files from dir */
+				function get_files($images_dir,$exts = array('jpg','png')) {
+					$files = array();
+					if($handle = opendir($images_dir)) {
+						while(false !== ($file = readdir($handle))) {
+							$extension = strtolower(get_file_extension($file));
+							if($extension && in_array($extension,$exts)) {
+								$files[] = $file;
+							}
+						}
+						closedir($handle);
+					}
+					return $files;
+				}
+
+				/* function:  returns a file's extension */
+				function get_file_extension($file_name) {
+					return substr(strrchr($file_name,'.'),1);
+				}
+
+
+				/** settings **/
+				$images_dir = '<!--$gallery-path-->';
+
+				/** generate photo gallery **/
+				$image_files = get_files($images_dir);
+
+				?>
+
+				<div class="swipe">
+					<?php 
+					if(count($image_files)) {
+						$index = 0;
+						foreach($image_files as $index=>$file) {
+							$index++;
+							echo '<figure><img src="s/w749-h496/'.$images_dir.$file.'" alt=""></figure>';
+						}
+					}
+					else {
+						echo '<p>Keine Bilder verfügbar.</p>';
+					}
+
+					 ?>
+				</div>

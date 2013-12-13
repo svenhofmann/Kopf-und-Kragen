@@ -28,7 +28,7 @@ var MF = (function(APP, $) {
     $elem.each(function(i) {
       var $this = $(this),
           $sliderNav = $('.swipe-slider__nav',$this),
-          navTemplate = '<ul class="nav nav--prev-next"><li><a href="javascript:void(0)" class="swipe__prev icon-arrow-left"></a></li><li><b class="current">1</b>/<b class="all">1</b></li><li><a href="javascript:void(0)" class="swipe__next icon-arrow-right"></a></li></ul>';
+          navTemplate = '<ul class="nav nav--prev-next"><li><a href="javascript:void(0)" class="swipe__prev icon-arrow-left">☜</a></li><li><b class="current">1</b>/<b class="all">1</b></li><li><a href="javascript:void(0)" class="swipe__next icon-arrow-right">☞</a></li></ul>';
       $this
         .wrapInner('<div class="swipe-wrap"/>');
 

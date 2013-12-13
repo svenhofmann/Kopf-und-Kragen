@@ -11,6 +11,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/galerie-party.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/galerie-party.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/s\/Test\/images\/camera-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -95,6 +104,24 @@
       "initialSize" : 4359389,
       "fileType" : 4096
     },
+    "\/galerie-frisieren.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/galerie-frisieren.kit",
+      "outputAbbreviatedPath" : "\/galerie-frisieren.html",
+      "fileType" : 65536
+    },
+    "\/galerie-modenschau.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/galerie-modenschau.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/s\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -124,17 +151,6 @@
       "initialSize" : 3776813,
       "fileType" : 4096
     },
-    "\/img\/galerie\/frisieren-ballroom\/frisieren-ballroom-3.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/galerie\/frisieren-ballroom\/frisieren-ballroom-3.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/galerie\/frisieren-ballroom\/frisieren-ballroom-3.jpg",
-      "initialSize" : 55026,
-      "fileType" : 4096
-    },
     "\/img\/produkte\/pomaden\/schmiere-mittel.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -144,6 +160,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/produkte\/pomaden\/schmiere-mittel.jpg",
       "initialSize" : 11236,
+      "fileType" : 4096
+    },
+    "\/img\/galerie\/frisieren-ballroom\/frisieren-ballroom-3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/galerie\/frisieren-ballroom\/frisieren-ballroom-3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/galerie\/frisieren-ballroom\/frisieren-ballroom-3.jpg",
+      "initialSize" : 55026,
       "fileType" : 4096
     },
     "\/index.kit" : {
@@ -208,6 +235,15 @@
       "initialSize" : 3475824,
       "fileType" : 4096
     },
+    "\/s\/core\/libs\/gd\/croppers\/slircropper.interface.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/s\/core\/libs\/gd\/croppers\/slircropper.interface.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/s\/install\/templates\/response.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -223,15 +259,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/produkte.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/s\/core\/libs\/gd\/croppers\/slircropper.interface.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/s\/core\/libs\/gd\/croppers\/slircropper.interface.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -282,17 +309,6 @@
       "initialSize" : 3533611,
       "fileType" : 4096
     },
-    "\/img\/produkte\/pomaden\/dax-wave-groom.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/produkte\/pomaden\/dax-wave-groom.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/produkte\/pomaden\/dax-wave-groom.jpg",
-      "initialSize" : 11902,
-      "fileType" : 4096
-    },
     "\/img\/neues\/kerstin.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -302,6 +318,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/neues\/kerstin.jpg",
       "initialSize" : 69058,
+      "fileType" : 4096
+    },
+    "\/img\/produkte\/pomaden\/dax-wave-groom.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/produkte\/pomaden\/dax-wave-groom.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/produkte\/pomaden\/dax-wave-groom.jpg",
+      "initialSize" : 11902,
       "fileType" : 4096
     },
     "\/js\/jquery.headroom.js" : {
@@ -346,12 +373,30 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/galerie-modenschau.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/galerie-modenschau.kit",
+      "outputAbbreviatedPath" : "\/galerie-modenschau.html",
+      "fileType" : 65536
+    },
     "\/s\/icc\/class.jpeg_icc.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/s\/icc\/class.jpeg_icc.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/galerie-taff.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/galerie-taff.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -407,6 +452,15 @@
       "outputAbbreviatedPath" : "\/img\/galerie\/party\/party-02.JPG",
       "initialSize" : 3969606,
       "fileType" : 4096
+    },
+    "\/_gallery.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_gallery.kit",
+      "outputAbbreviatedPath" : "\/_gallery.html",
+      "fileType" : 65536
     },
     "\/img\/produkte\/pflegeprodukte\/mythic-oil.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -473,6 +527,18 @@
       "initialSize" : 2577533,
       "fileType" : 4096
     },
+    "\/css\/_animate-custom.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_animate-custom.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_animate-custom.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/img\/galerie\/dreharbeiten-taff\/dreharbeiten-taff-1.JPG" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -482,17 +548,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/galerie\/dreharbeiten-taff\/dreharbeiten-taff-1.JPG",
       "initialSize" : 452222,
-      "fileType" : 4096
-    },
-    "\/img\/produkte\/pomaden\/sweet-georgia-brown-rot.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/produkte\/pomaden\/sweet-georgia-brown-rot.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/produkte\/pomaden\/sweet-georgia-brown-rot.jpg",
-      "initialSize" : 18751,
       "fileType" : 4096
     },
     "\/img\/produkte\/pflegeprodukte\/inoa-color-care.jpg" : {
@@ -506,14 +561,16 @@
       "initialSize" : 18315,
       "fileType" : 4096
     },
-    "\/s\/install\/templates\/footer.html" : {
+    "\/img\/produkte\/pomaden\/sweet-georgia-brown-rot.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/s\/install\/templates\/footer.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/produkte\/pomaden\/sweet-georgia-brown-rot.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/produkte\/pomaden\/sweet-georgia-brown-rot.jpg",
+      "initialSize" : 18751,
+      "fileType" : 4096
     },
     "\/img\/galerie\/frisieren-ballroom\/frisieren-ballroom-1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -526,17 +583,14 @@
       "initialSize" : 84326,
       "fileType" : 4096
     },
-    "\/css\/_animate-custom.scss" : {
+    "\/s\/install\/templates\/footer.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_animate-custom.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_animate-custom.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/s\/install\/templates\/footer.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/s\/core\/slirexceptionhandler.class.php" : {
       "ignoreWasSetByUser" : 0,
@@ -644,6 +698,15 @@
       "initialSize" : 534875,
       "fileType" : 4096
     },
+    "\/galerie-frisieren.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/galerie-frisieren.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/img\/produkte\/pomaden\/black-white.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -737,14 +800,16 @@
       "outputAbbreviatedPath" : "\/js\/swipe.min.js",
       "fileType" : 64
     },
-    "\/_footer.kit" : {
+    "\/img\/galerie\/alltag\/alltag-08.JPG" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_footer.kit",
-      "outputAbbreviatedPath" : "\/_footer.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/img\/galerie\/alltag\/alltag-08.JPG",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/galerie\/alltag\/alltag-08.JPG",
+      "initialSize" : 4095384,
+      "fileType" : 4096
     },
     "\/img\/freunde\/buntgarn.png" : {
       "ignoreWasSetByUser" : 0,
@@ -757,17 +822,6 @@
       "initialSize" : 9782,
       "fileType" : 8192
     },
-    "\/img\/galerie\/alltag\/alltag-08.JPG" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/galerie\/alltag\/alltag-08.JPG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/galerie\/alltag\/alltag-08.JPG",
-      "initialSize" : 4095384,
-      "fileType" : 4096
-    },
     "\/preise.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -776,6 +830,15 @@
       "inputAbbreviatedPath" : "\/preise.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/_footer.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_footer.kit",
+      "outputAbbreviatedPath" : "\/_footer.html",
+      "fileType" : 65536
     },
     "\/img\/galerie\/alltag\/alltag-06.JPG" : {
       "ignoreWasSetByUser" : 0,
@@ -861,16 +924,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/app.js" : {
+    "\/img\/galerie\/alltag\/alltag-02.JPG" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/app.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/img\/galerie\/alltag\/alltag-02.JPG",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/galerie\/alltag\/alltag-02.JPG",
+      "initialSize" : 4414479,
+      "fileType" : 4096
     },
     "\/img\/layout\/old_map.png" : {
       "ignoreWasSetByUser" : 0,
@@ -883,16 +946,16 @@
       "initialSize" : 32046,
       "fileType" : 8192
     },
-    "\/img\/produkte\/pomaden\/schmiere-hart.jpg" : {
+    "\/js\/app.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/produkte\/pomaden\/schmiere-hart.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/produkte\/pomaden\/schmiere-hart.jpg",
-      "initialSize" : 10559,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/js\/app.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/app.min.js",
+      "fileType" : 64
     },
     "\/img\/freunde\/skull-pell.png" : {
       "ignoreWasSetByUser" : 0,
@@ -905,15 +968,15 @@
       "initialSize" : 11662,
       "fileType" : 8192
     },
-    "\/img\/galerie\/alltag\/alltag-02.JPG" : {
+    "\/img\/produkte\/pomaden\/schmiere-hart.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/galerie\/alltag\/alltag-02.JPG",
+      "inputAbbreviatedPath" : "\/img\/produkte\/pomaden\/schmiere-hart.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/galerie\/alltag\/alltag-02.JPG",
-      "initialSize" : 4414479,
+      "outputAbbreviatedPath" : "\/img\/produkte\/pomaden\/schmiere-hart.jpg",
+      "initialSize" : 10559,
       "fileType" : 4096
     },
     "\/s\/core\/libs\/gd\/croppers\/smart.class.php" : {
@@ -1018,16 +1081,17 @@
       "initialSize" : 2759268,
       "fileType" : 4096
     },
-    "\/s\/Test\/images\/joe-lencioni.jpg" : {
+    "\/css\/style.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/s\/Test\/images\/joe-lencioni.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/s\/Test\/images\/joe-lencioni.jpg",
-      "initialSize" : 1730271,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/css\/style.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/style.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/favicon.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1060,18 +1124,6 @@
       "initialSize" : 30210,
       "fileType" : 4096
     },
-    "\/css\/style.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/style.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/img\/produkte\/pomaden\/royal-crown.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1082,6 +1134,26 @@
       "outputAbbreviatedPath" : "\/img\/produkte\/pomaden\/royal-crown.jpg",
       "initialSize" : 12450,
       "fileType" : 4096
+    },
+    "\/s\/Test\/images\/joe-lencioni.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/s\/Test\/images\/joe-lencioni.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/s\/Test\/images\/joe-lencioni.jpg",
+      "initialSize" : 1730271,
+      "fileType" : 4096
+    },
+    "\/galerie-party.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/galerie-party.kit",
+      "outputAbbreviatedPath" : "\/galerie-party.html",
+      "fileType" : 65536
     },
     "\/s\/core\/libs\/gd\/croppers\/topcentered.class.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1227,6 +1299,15 @@
       "initialSize" : 61074,
       "fileType" : 4096
     },
+    "\/galerie-alltag.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/galerie-alltag.kit",
+      "outputAbbreviatedPath" : "\/galerie-alltag.html",
+      "fileType" : 65536
+    },
     "\/img\/galerie\/dreharbeiten-taff\/dreharbeiten-taff-2.JPG" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1249,14 +1330,14 @@
       "initialSize" : 9237,
       "fileType" : 4096
     },
-    "\/404.html" : {
+    "\/galerie-taff.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/404.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/galerie-taff.kit",
+      "outputAbbreviatedPath" : "\/galerie-taff.html",
+      "fileType" : 65536
     },
     "\/img\/galerie\/frisieren-ballroom\/frisieren-ballroom-4.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1268,6 +1349,15 @@
       "outputAbbreviatedPath" : "\/img\/galerie\/frisieren-ballroom\/frisieren-ballroom-4.jpg",
       "initialSize" : 62274,
       "fileType" : 4096
+    },
+    "\/404.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/404.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/s\/core\/libs\/gd\/slirgdimage.class.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1300,15 +1390,6 @@
       "initialSize" : 4060404,
       "fileType" : 4096
     },
-    "\/s\/slirconfig-sample.class.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/s\/slirconfig-sample.class.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/jquery-1.10.2.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1326,6 +1407,24 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/s\/core\/slirrequest.class.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/s\/slirconfig-sample.class.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/s\/slirconfig-sample.class.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/galerie-alltag.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/galerie-alltag.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     }

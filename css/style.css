@@ -932,3 +932,58 @@ td.right {
   padding: 0.8em;
   border: 4px double #554637;
   margin-top: 2em; }
+
+/* ---------------------------- GALLERY ---------------------------- */
+.js .swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  max-width: 748px;
+  margin-top: 3em; }
+
+.swipe-wrap {
+  overflow: hidden;
+  position: relative; }
+
+.swipe-wrap > div,
+.swipe-wrap > figure {
+  float: left;
+  width: 100%;
+  position: relative;
+  margin: 0; }
+
+.swipe-wrap img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto; }
+
+.swipe .nav {
+  margin-top: .5em;
+  text-align: center;
+  list-style: none;
+  padding: 0; }
+  .swipe .nav li {
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle; }
+  .swipe .nav .swipe__prev,
+  .swipe .nav .swipe__next {
+    text-decoration: none;
+    font-size: 200%;
+    padding: 0 .5em;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    display: block; }
+  .swipe .nav .swipe__prev:hover {
+    -webkit-transform: translateX(-0.1em);
+    -moz-transform: translateX(-0.1em);
+    -ms-transform: translateX(-0.1em);
+    -o-transform: translateX(-0.1em);
+    transform: translateX(-0.1em); }
+  .swipe .nav .swipe__next:hover {
+    -webkit-transform: translateX(0.1em);
+    -moz-transform: translateX(0.1em);
+    -ms-transform: translateX(0.1em);
+    -o-transform: translateX(0.1em);
+    transform: translateX(0.1em); }

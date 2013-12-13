@@ -1,0 +1,162 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Party bei Kopf &amp; Kragen – Galerie - Vintage Friseur Leipzig Südvorstadt – Kopf & Kragen</title>
+		<meta name="description" content="Party bei Kopf &amp; Kragen">
+		<meta name="viewport" content="width=device-width">
+
+		<meta property="og:title" content="Friseur Kopf & Kragen">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="img/layout/kopf-und-kragen-og.png" />
+		<!-- <meta property="og:url" content="http://www.kopf-und-kragen.com"> -->
+		<meta property="og:description" content="Kopf und Kragen ist der Vintage-Friseur in Leipzigs Südvorstadt.">
+		<meta property="og:locale" content="de_DE">
+
+		<script src="js/modernizr.min.js"></script>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Muli:300,400,300italic,400italic">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+
+	<body>
+		<header id="header" role="banner">
+			<ul id="navigation" role="navigation">
+				<li class="inactive"><a href="index.html">Neues</a></li>
+				<li class="inactive"><a href="preise.html">Preise</a></li>
+				<li class="inactive"><a href="produkte.html">Produkte</a></li>
+				<li class="logo"><img src="img/layout/kopf-und-kragen-logo.svg" alt="Logo von Friseur Kopf &amp; Kragen" height="100" /></li>
+				<li class="active"><a href="galerie.html">Galerie</a></li>
+				<li class="inactive"><a href="freunde.html">Freunde</a></li>
+				<li class="inactive"><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+		</header>
+
+
+<div class="container">
+	<div class="grid freunde">
+
+
+		<div class="unit span-grid">
+			<h1>Party bei Kopf &amp; Kragen</h1>
+
+				
+								<?php 
+				/* function:  returns files from dir */
+				function get_files($images_dir,$exts = array('jpg','png')) {
+					$files = array();
+					if($handle = opendir($images_dir)) {
+						while(false !== ($file = readdir($handle))) {
+							$extension = strtolower(get_file_extension($file));
+							if($extension && in_array($extension,$exts)) {
+								$files[] = $file;
+							}
+						}
+						closedir($handle);
+					}
+					return $files;
+				}
+
+				/* function:  returns a file's extension */
+				function get_file_extension($file_name) {
+					return substr(strrchr($file_name,'.'),1);
+				}
+
+
+				/** settings **/
+				$images_dir = 'img/galerie/party/';
+
+				/** generate photo gallery **/
+				$image_files = get_files($images_dir);
+
+				?>
+
+				<div class="swipe">
+					<?php 
+					if(count($image_files)) {
+						$index = 0;
+						foreach($image_files as $index=>$file) {
+							$index++;
+							echo '<figure><img src="s/w749-h496/'.$images_dir.$file.'" alt=""></figure>';
+						}
+					}
+					else {
+						echo '<p>Keine Bilder verfügbar.</p>';
+					}
+
+					 ?>
+				</div>
+		</div>
+
+		<div class="unit span-grid" role="seperator">
+			<img class="seperator" src="img/layout/separator.svg" alt="Trenner">
+		</div>
+
+		<div class="unit span-grid">
+			<a href="galerie.html" title="Alle Galerien anzeigen"> < Zurück zur Übersicht</a>
+		</div>
+	</div>
+
+</div>
+
+	<div id="footer">
+
+		<div id="footer-wrapper">
+
+			<div id="oeffnungszeiten">
+				<h2>Öffnungszeiten</h2>
+				<table>
+					<tr>
+						<td>Mo</td>
+						<td class="right">geschlossen</td>
+					</tr>
+					<tr>
+						<td>Di &ndash; Fr</td>
+						<td class="right">11 – 20 Uhr</td>
+					</tr>
+					<tr>
+						<td>Sa</td>
+						<td class="right">12 – 17 Uhr</td>
+					</tr>
+				</table>
+
+
+				<p><span class="hinweis">Schicke Frisuren gibt&rsquo;s auch außerhalb der Öffnungszeiten, jedoch nur nach Vereinbarung.</span></p>
+
+			</div>
+
+			<p><span class="highlight">Telefon<br> 0341 – 68 77 197</span></p>
+
+			<p>Kochstraße 25, 04275 Leipzig &emsp;<span aria-hidden="true" class="icon-star"></span>&emsp; <a href="mailto:hi@kopf-und-kragen.com" title="Schreib uns eine Mail!"><script type="text/javascript">
+//<![CDATA[
+eval(unescape('%76%61%72%20%73%3D%27%61%6D%6C%69%6F%74%68%3A%40%69%6F%6B%66%70%75%2D%64%6E%6B%2D%61%72%65%67%2E%6E%6F%63%6D%27%3B%76%61%72%20%72%3D%27%27%3B%66%6F%72%28%76%61%72%20%69%3D%30%3B%69%3C%73%2E%6C%65%6E%67%74%68%3B%69%2B%2B%2C%69%2B%2B%29%7B%72%3D%72%2B%73%2E%73%75%62%73%74%72%69%6E%67%28%69%2B%31%2C%69%2B%32%29%2B%73%2E%73%75%62%73%74%72%69%6E%67%28%69%2C%69%2B%31%29%7D%64%6F%63%75%6D%65%6E%74%2E%77%72%69%74%65%28%27%3C%61%20%68%72%65%66%3D%22%27%2B%72%2B%27%22%3E%68%69%40%6B%6F%70%66%2D%75%6E%64%2D%6B%72%61%67%65%6E%2E%63%6F%6D%3C%2F%61%3E%27%29%3B'))
+//]]>
+</script></a> &emsp;<span aria-hidden="true" class="icon-star"></span>&emsp; <a href="impressum.html" title="zum Impressum">Impressum</a>
+
+		</div>
+
+	</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+	<script src="js/app.min.js"></script>
+	
+
+	<script type="text/javascript">
+		(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-2322878-11');ga('set','anonymizeIp',true);ga('send','pageview');
+	</script>
+
+	
+	</body>
+</html>
