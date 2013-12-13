@@ -773,6 +773,9 @@ img.content {
 .no-margin-bottom {
   margin-bottom: 0; }
 
+.galerie {
+  margin-bottom: 2em; }
+
 @media screen and (max-width: 650px) {
   body h1 br {
     display: none; } }
