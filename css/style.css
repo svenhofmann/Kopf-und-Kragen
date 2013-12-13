@@ -447,6 +447,84 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.animated {
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-9em); }
+
+  100% {
+    -webkit-transform: translateY(0); } }
+
+@-moz-keyframes slideDown {
+  0% {
+    -moz-transform: translateY(-9em); }
+
+  100% {
+    -moz-transform: translateY(0); } }
+
+@-o-keyframes slideDown {
+  0% {
+    -o-transform: translateY(-9em); }
+
+  100% {
+    -o-transform: translateY(0); } }
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-9em); }
+
+  100% {
+    transform: translateY(0); } }
+
+.animated.slideDown {
+  -webkit-animation-name: slideDown;
+  -moz-animation-name: slideDown;
+  -o-animation-name: slideDown;
+  animation-name: slideDown; }
+
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(0); }
+
+  100% {
+    -webkit-transform: translateY(-9em); } }
+
+@-moz-keyframes slideUp {
+  0% {
+    -moz-transform: translateY(0); }
+
+  100% {
+    -moz-transform: translateY(-9em); } }
+
+@-o-keyframes slideUp {
+  0% {
+    -o-transform: translateY(0); }
+
+  100% {
+    -o-transform: translateY(-9em); } }
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0); }
+
+  100% {
+    transform: translateY(-9em); } }
+
+.animated.slideUp {
+  -webkit-animation-name: slideUp;
+  -moz-animation-name: slideUp;
+  -o-animation-name: slideUp;
+  animation-name: slideUp; }
+
 @font-face {
   font-family: 'AntsyPants';
   src: url("fonts/AntsyPants.eot");
@@ -488,7 +566,7 @@ table {
 .container {
   /* Whatever you want. They’re your oats. */
   max-width: 800px;
-  margin: 50px auto 0;
+  margin: 183px auto 0;
   padding: 0 30px;
   padding: 0 1.5rem; }
 
@@ -705,7 +783,10 @@ img.content {
   width: 100%;
   height: auto;
   background: url(../img/layout/leather.jpg);
-  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 10; }
 
 #navigation {
   max-width: 1000px;
