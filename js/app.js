@@ -72,7 +72,7 @@ var MF = (function(APP, $) {
 
   function initHeadroom($elem) {
 	$elem.headroom({
-		"tolerance": 10,
+		"tolerance": 5,
 		"offset": 100,
 		"classes": {
 			"initial": "animated",
