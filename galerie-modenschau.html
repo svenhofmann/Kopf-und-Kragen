@@ -46,52 +46,9 @@
 		<div class="unit span-grid">
 			<h1>Modenschau beim Tanztee im Ballroom</h1>
 
-				
-								<?php 
-				/* function:  returns files from dir */
-				function get_files($images_dir,$exts = array('jpg','png')) {
-					$files = array();
-					if($handle = opendir($images_dir)) {
-						while(false !== ($file = readdir($handle))) {
-							$extension = strtolower(get_file_extension($file));
-							if($extension && in_array($extension,$exts)) {
-								$files[] = $file;
-							}
-						}
-						closedir($handle);
-					}
-					return $files;
-				}
-
-				/* function:  returns a file's extension */
-				function get_file_extension($file_name) {
-					return substr(strrchr($file_name,'.'),1);
-				}
-
-
-				/** settings **/
-				$images_dir = 'img/galerie/modenschau-ballroom/';
-
-				/** generate photo gallery **/
-				$image_files = get_files($images_dir);
-
-				?>
-
 				<div class="swipe">
-					<?php 
-					if(count($image_files)) {
-						$index = 0;
-						foreach($image_files as $index=>$file) {
-							$index++;
-							echo '<figure><img src="s/w749-h496/'.$images_dir.$file.'" alt=""></figure>';
-						}
-					}
-					else {
-						echo '<p>Keine Bilder verfügbar.</p>';
-					}
+					<figure><img src="img/galerie/modenschau-ballroom/modenschau-ballroom-1.jpg" alt=""></figure><figure><img src="img/galerie/modenschau-ballroom/modenschau-ballroom-2.jpg" alt=""></figure><figure><img src="img/galerie/modenschau-ballroom/modenschau-ballroom-3.jpg" alt=""></figure>				</div>
 
-					 ?>
-				</div>
 		</div>
 
 		<div class="unit span-grid" role="seperator">
@@ -146,7 +103,7 @@ eval(unescape('%76%61%72%20%73%3D%27%61%6D%6C%69%6F%74%68%3A%40%69%6F%6B%66%70%7
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 	<script src="js/app.min.js"></script>
-	
+
 
 	<script type="text/javascript">
 		(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -154,9 +111,9 @@ eval(unescape('%76%61%72%20%73%3D%27%61%6D%6C%69%6F%74%68%3A%40%69%6F%6B%66%70%7
     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
     e.src='//www.google-analytics.com/analytics.js';
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-2322878-11');ga('set','anonymizeIp',true);ga('send','pageview');
+    ga('create','UA-46458609-1');ga('set','anonymizeIp',true);ga('send','pageview');
 	</script>
 
-	
+
 	</body>
 </html>
