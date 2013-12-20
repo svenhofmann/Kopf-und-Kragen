@@ -741,13 +741,16 @@ ul {
 body {
   background-color: #fff;
   background-image: url(../img/layout/content-bg.jpg);
-  background-size: 100% auto;
+  background-size: contain;
   background-position: center 130px;
   background-repeat: no-repeat; }
   @media screen and (max-width: 1600px) {
     body {
+      background-size: 1600px auto; } }
+  @media screen and (max-width: 450px) {
+    body {
+      background-image: url(../img/layout/ricepaper.png);
       background-size: auto;
-      background-image: url(../img/layout/ricepaper_v3.png);
       background-repeat: repeat; } }
 
 img.content {
